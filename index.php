@@ -1,35 +1,5 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title></title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<style>
-			.row {
-				padding: 5rem 0;
-			}
-		</style>
-	</head>
-	<body class="container-fluid" style="padding-right: 0; padding-left: 0;">
-		<header class="navbar navbar-default navbar-toggleable">
-			<nav class="container-fluid">
-				<a href="" class="navbar-brand">Refined Tech</a>
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#dropdown">
-        			<span class="icon-bar"></span>
-        			<span class="icon-bar"></span>
-        			<span class="icon-bar"></span> 
-      			</button>
-				<div class="navbar-collapse collapse" id="dropdown">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="nav-item"><a href="">About</a></li>
-						<li class="nav-item"><a href="">Things</a></li>
-						<li class="nav-item"><a href="">Work</a></li>
-					</ul>
-				</div>
-			</nav>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<?php require_once 'header.php'; ?>
 
-		</header>
 		<div class="jumbotron" style="background: none;">
 			<div class="container">
 				<h1>Refined Tech</h1>
@@ -37,7 +7,51 @@
 				<div class="col-sm-6">
 					<h2>Creativity.</h2>
 					<p>In Web Solutions</p>
-					<div class="btn btn-warning">Get Answers.</div>
+					<a class="btn btn-warning" href="#myModal" data-toggle='modal'>Get Answers.</a>
+						  <!-- Modal -->
+						  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Get in Touch</h4>
+						        </div>
+						        <div class="modal-body">
+						          <form action="">
+						          	<div class="form-row">
+						          		<div class="col-xs-6">
+						          			<label for="first">First</label>
+						          			<input type="text" class="form-control" id="first">
+						          		</div>
+						          		<div class="col-xs-6">
+						          			<label for="last">Last</label>
+						          			<input type="text" class="form-control" id="last">
+						          		</div>
+						          	</div>
+						          	<div class="form-row">
+						          		<div class="form-group">
+							          		<div class="col-xs-12">
+							          			<label for="email">Email</label>
+							          			<input type="email" class="form-control" id="email">
+							          		</div>
+						          		</div>
+						          	</div>
+						          	<div class="form-row">
+						          		<div class="form-group">							          		
+						          			<label for="body">Message</label>
+						          			<textarea rows="5" class="form-control" id="body"></textarea>
+						          		</div>
+						          	</div>
+						          </form>
+						        </div>
+						        <div class="modal-footer">
+						          <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+						          <button type="button" class="btn btn-primary">Submit</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+
 				</div>
 			</div>
 		</div>
@@ -46,14 +60,11 @@
 			<div class="container">
 				<div class="col-sm-6">
 					<h2>Dynamic Infrastructure</h2>
-					<p class="col-sm-12">Refined Technologies is web development company specializing in data solutions. We offer a variety of services and solutions to your <strong>web presence</strong> needs. </p>
+					<p class="lead">Refined Technologies is web development company specializing in data solutions. We offer a variety of services and solutions to your <strong>web presence</strong> needs. </p>
 				</div>
 				<div class="col-sm-6">
 					<img class="img-responsive" src="infra.png" alt="">
 				</div>
-			</div>
-			<div class="row">
-				<!-- <p class="col-sm-4 col-sm-offset-4">Refined Technologies is web development company specializing in data solutions. We offer a variety of services and solutions to your <strong>web presence</strong> needs. </p> -->
 			</div>
 		</div>
 		<div class="row" style="background: linear-gradient(to top right, #fff, #fff, #dee);">
@@ -63,11 +74,6 @@
 					<img class="img-responsive" src="tech.png" alt="">
 				</div>
 				<div class="col-sm-6">
-					<!-- <ul class="list-group">
-						<li class="list-group-item">Responsive, modern web sites</li>
-						<li class="list-group-item">Solutions to complex data problems</li>
-						<li class="list-group-item">Boosting efficiency with web applications</li>
-					</ul> -->
 					<div class="panel-group" id="accordian">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -160,40 +166,5 @@
 			</div>
 		</div>
 	</div>
-		<div class="footer" style="background: linear-gradient(to bottom, #fff, #fff, #dee)">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="well">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo itaque maiores dolorum recusandae dignissimos excepturi, aliquid porro accusantium sed, inventore ex modi soluta, repellendus rerum placeat doloremque culpa odio iste!</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="text-center center-block">
-								<a href="#">
-									<i class="glyphicon glyphicon-envelope"></i>
-								</a>
-								<a href="#">
-									<i class="glyphicon glyphicon-envelope"></i>
-								</a>
-								<a href="#">
-									<i class="glyphicon glyphicon-envelope"></i>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="well">
-								<form action="#">
-									<div class="input-group">
-										<input type="text" class="btn btn-lg" name="email" id="email" type="email" required placeholder="Your Email">
-										<button class="btn btn-info btn-lg" type="submit">Submit</button>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-		</div>
-		<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
-	</body>
-</html>
+	
+<?php require_once 'footer.php'; ?>
