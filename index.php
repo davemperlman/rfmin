@@ -1,4 +1,4 @@
-<?php require_once 'header.php'; ?>
+<?php require_once 'parts/header.php'; ?>
 
 		<div class="jumbotron" style="background: none;">
 			<div class="container">
@@ -46,7 +46,7 @@
 						        </div>
 						        <div class="modal-footer">
 						          <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
-						          <button type="button" class="btn btn-primary">Submit</button>
+						          <button id="modalMail" type="button" class="btn btn-primary">Submit</button>
 						        </div>
 						      </div><!-- /.modal-content -->
 						    </div><!-- /.modal-dialog -->
@@ -59,21 +59,21 @@
 			<div class="row" style="background: linear-gradient(to bottom right, #FFF, #fff, #dee);">
 			<div class="container">
 				<div class="col-sm-6">
-					<h2>Dynamic Infrastructure</h2>
+					<h2 class="text-center">Dynamic Infrastructure</h2>
 					<p class="lead">Refined Technologies is web development company specializing in data solutions. We offer a variety of services and solutions to your <strong>web presence</strong> needs. </p>
 				</div>
 				<div class="col-sm-6">
-					<img class="img-responsive" src="infra.png" alt="">
+					<img class="img-responsive" src="img/infra.png" alt="">
 				</div>
 			</div>
 		</div>
 		<div class="row" style="background: linear-gradient(to top right, #fff, #fff, #dee);">
 			<div class="container">
-				<h2 class="">The Refined Process</h2>
-				<div class="col-sm-6 right">
-					<img class="img-responsive" src="tech.png" alt="">
+				<div class="col-sm-6">
+					<img class="img-responsive" src="img/tech.png" alt="">
 				</div>
 				<div class="col-sm-6">
+					<h2 class="text-center">The Refined Process</h2>
 					<div class="panel-group" id="accordian">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -123,7 +123,7 @@
 		</div>
 		<div class="row">
 			<div class="container">
-				<h2>My Work</h2>
+				<h2 class="text-center">My Work</h2>
 				<div class="col-sm-4">
 					<div class="panel panel-default">
 						<div class="panel-heading">
@@ -131,7 +131,7 @@
 								Data Solutions
 							</h4>
 						</div>
-						<img src="data.png" alt="" class="img-responsive">
+						<img src="img/data.png" alt="" class="img-responsive">
 						<div class="panel-body">
 							<p>In our eyes, a website should be a marketing tool as well as a processing tool. For many clients, a web based application can improve efficiency in many facets of business and help to create an easier and more organized process. </p>
 						</div>
@@ -144,7 +144,7 @@
 								Dynamic Websites
 							</h4>
 						</div>
-						<img src="dynamic.png" alt="" class="img-responsive">
+						<img src="img/dynamic.png" alt="" class="img-responsive">
 						<div class="panel-body">
 							<p>Being able to change content on a website is important to many clients. Regularly posting new content not only keeps your website appealing to viewers, it also helps to optimize a site for placement in search results. We offer a number of solutions for clients looking to have more control over their web presence.</p>
 						</div>
@@ -157,7 +157,7 @@
 								SEO
 							</h4>
 						</div>
-						<img src="seo.png" alt="" class="img-responsive">
+						<img src="img/seo.png" alt="" class="img-responsive">
 						<div class="panel-body">
 							<p>Search Engine Optimization is an integral part of modern web development. It assists search engines in indexing a web site correctly. As an example, you wouldn't want a site that sells fishing poles to be indexed when someone searches for bowling shoes - but you would want that site indexed when someone searches for "fishing poles online". By using a number of strategies, we optimize our clients sites for the major search engines.</p>
 						</div>
@@ -165,6 +165,5 @@
 				</div>
 			</div>
 		</div>
-	</div>
 	
-<?php require_once 'footer.php'; ?>
+<?php require_once 'parts/footer.php'; ?>

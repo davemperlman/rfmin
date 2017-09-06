@@ -1,0 +1,30 @@
+h1, h2, h3, h4 ,h5, h6 {
+	margin: 4rem 0;
+}
+
+.container-fluid, .container {
+	// padding-right: 0;
+	// padding-left: 0;
+}
+#emailForm {
+	padding: 0;
+}
+
+.row {
+	padding: 10rem 0;
+}
+.panel img {
+	transition: .5s all ease-in-out;
+	&:hover {
+		transform: rotate(30deg);
+	}
+}
+.fa {
+	font-size: 3rem;
+	margin: 1rem;
+	color: #666;
+}
+
+textarea {
+	resize: none;
+}
