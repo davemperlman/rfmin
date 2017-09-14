@@ -17,37 +17,46 @@
 						          <h4 class="modal-title">Get in Touch</h4>
 						        </div>
 						        <div class="modal-body">
-						          <form action="">
+						          <form id="modalMail" action="">
 						          	<div class="form-row">
 						          		<div class="col-xs-6">
 						          			<label for="first">First</label>
-						          			<input type="text" class="form-control" id="first">
+						          			<input type="text" class="form-control" id="first" required>
 						          		</div>
 						          		<div class="col-xs-6">
 						          			<label for="last">Last</label>
-						          			<input type="text" class="form-control" id="last">
+						          			<input type="text" class="form-control" id="last" required>
 						          		</div>
 						          	</div>
 						          	<div class="form-row">
 						          		<div class="form-group">
 							          		<div class="col-xs-12">
 							          			<label for="email">Email</label>
-							          			<input type="email" class="form-control" id="email">
+							          			<input type="email" class="form-control" id="email" required>
 							          		</div>
 						          		</div>
 						          	</div>
 						          	<div class="form-row">
-						          		<div class="form-group">							          		
-						          			<label for="body">Message</label>
-						          			<textarea rows="5" class="form-control" id="body"></textarea>
+						          		<div class="form-group">
+						          			<label for="subject">Subject</label>
+						          			<input type="text" class="form-control" id="body" required></textarea>
 						          		</div>
+						          	</div>
+						          	<div class="form-row">
+						          		<div class="form-group">
+						          			<label for="body">Message</label>
+						          			<textarea rows="5" class="form-control" id="body" required></textarea>
+						          		</div>
+						          	</div>
+						          	<div class="modal-footer">
+						          		<button id="" class="btn btn-info" type="submit">Submit</button>
 						          	</div>
 						          </form>
 						        </div>
-						        <div class="modal-footer">
-						          <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
-						          <button id="modalMail" type="button" class="btn btn-primary">Submit</button>
-						        </div>
+						        <!-- <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						          <button id="modalMail" type="submit" class="btn btn-primary">Submit</button>
+						        </div> -->
 						      </div><!-- /.modal-content -->
 						    </div><!-- /.modal-dialog -->
 						  </div><!-- /.modal -->

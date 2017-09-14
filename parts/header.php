@@ -2,14 +2,12 @@
 <html>
 	<head>
 		<title>Refined Tech | <?php echo $page; ?></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="_css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<style>
-		
-		</style>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 	<body class="container-fluid" style="padding-right: 0; padding-left: 0;">
@@ -21,8 +19,9 @@
 	        			<span class="icon-bar"></span>
 	        			<span class="icon-bar"></span> 
       				</button>
-      				<a href="index.php" class="">
-						<img src="img/notext-white.png" class="" height="50px" alt="">
+      				<a href="index.php" class="lead" style="text-decoration: none;">
+						<img src="img/logoweb.png" class="" height="50px" alt="">
+						Refined Tech
 					</a>
 				</div>
 				<div class="navbar-collapse collapse" id="dropdown">
