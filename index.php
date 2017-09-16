@@ -1,11 +1,10 @@
 <?php require_once 'parts/header.php'; ?>
 
-		<div class="jumbotron" style="background: none;">
+		<div class="jumbotron" style="background: url('img/banner.png'); background-attachment: fixed; background-position: top; color: #444; border-radius: 0;">
 			<div class="container">
-				<h1>Refined Tech</h1>
-				<hr>
-				<div class="col-sm-6">
-					<h2>Creativity.</h2>
+				<h1 class="text-center">Refined Tech</h1>
+				<div class="col-xs-12 text-center">
+					<h2 class="lead">- Creativity -</h2>
 					<p>In Web Solutions</p>
 					<a class="btn btn-warning" href="#myModal" data-toggle='modal'>Get Answers.</a>
 						  <!-- Modal -->
@@ -53,19 +52,18 @@
 						          	</div>
 						          </form>
 						        </div>
-						        <!-- <div class="modal-footer">
-						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						          <button id="modalMail" type="submit" class="btn btn-primary">Submit</button>
-						        </div> -->
 						      </div><!-- /.modal-content -->
 						    </div><!-- /.modal-dialog -->
 						  </div><!-- /.modal -->
 
 				</div>
+				<!-- <div class="col-xs-6">
+					<img src="img/logoweb.png" alt="" class="img-responsive">
+				</div> -->
 			</div>
 		</div>
 		<div class="container-fluid">
-			<div class="row" style="background: linear-gradient(to bottom right, #FFF, #fff, #dee);">
+			<div class="row" style="">
 			<div class="container">
 				<div class="col-sm-6">
 					<h2 class="text-center">Dynamic Infrastructure</h2>
@@ -76,7 +74,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row" style="background: linear-gradient(to top right, #fff, #fff, #dee);">
+		<div class="row" style="">
 			<div class="container">
 				<div class="col-sm-6">
 					<img class="img-responsive" src="img/tech.png" alt="">
@@ -140,9 +138,16 @@
 								Data Solutions
 							</h4>
 						</div>
-						<img src="img/data.png" alt="" class="img-responsive">
+						<a href="data.php">
+							<img src="img/data.png" alt="" class="img-responsive">
+						</a>
 						<div class="panel-body">
 							<p>In our eyes, a website should be a marketing tool as well as a processing tool. For many clients, a web based application can improve efficiency in many facets of business and help to create an easier and more organized process. </p>
+							<p class="text-center">
+								<a href="data.php" class="text-center btn btn-info">
+									Problem Solving
+								</a>
+							</p>
 						</div>
 					</div>	
 				</div>
@@ -153,9 +158,16 @@
 								Dynamic Websites
 							</h4>
 						</div>
-						<img src="img/dynamic.png" alt="" class="img-responsive">
+						<a href="dynamic.php">
+							<img src="img/dynamic.png" alt="" class="img-responsive">
+						</a>
 						<div class="panel-body">
 							<p>Being able to change content on a website is important to many clients. Regularly posting new content not only keeps your website appealing to viewers, it also helps to optimize a site for placement in search results. We offer a number of solutions for clients looking to have more control over their web presence.</p>
+							<p class="text-center">
+								<a href="dynamic.php" class="text-center btn btn-info">
+									Control Content
+								</a>
+							</p>
 						</div>
 					</div>	
 				</div>
@@ -166,9 +178,16 @@
 								SEO
 							</h4>
 						</div>
-						<img src="img/seo.png" alt="" class="img-responsive">
+						<a href="seo.php">
+							<img src="img/seo.png" alt="" class="img-responsive">
+						</a>
 						<div class="panel-body">
 							<p>Search Engine Optimization is an integral part of modern web development. It assists search engines in indexing a web site correctly. As an example, you wouldn't want a site that sells fishing poles to be indexed when someone searches for bowling shoes - but you would want that site indexed when someone searches for "fishing poles online". By using a number of strategies, we optimize our clients sites for the major search engines.</p>
+							<p class="text-center">
+								<a href="seo.php" class="text-center btn btn-info">
+									Get Noticed
+								</a>
+							</p>
 						</div>
 					</div>	
 				</div>

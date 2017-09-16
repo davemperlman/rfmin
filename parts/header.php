@@ -11,7 +11,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 	<body class="container-fluid" style="padding-right: 0; padding-left: 0;">
-		<nav class="navbar navbar-inverse navbar-toggleable">
+		<nav class="navbar navbar-inverse navbar-toggleable" style="margin-bottom: 0;">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#dropdown">

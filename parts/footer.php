@@ -48,19 +48,19 @@
 						<p class="text-center lead">
 							Refined Technologies
 						</p>
-						<div class="col-sm-2 col-sm-offset-5 col-xs-6 col-xs-offset-3">
+						<!-- <div class="col-sm-2 col-sm-offset-5 col-xs-6 col-xs-offset-3">
 							<img src="img/logoweb.png" class="img-responsive" alt="">
-						</div>
+						</div> -->
 					</div>
 					<div class="row" style="padding: 0;">
 						<div class="text-center center-block">
-							<a href="#">
+							<a href="mailto:info@refined-tech.com">
 								<i class="fa fa-envelope"></i>
 							</a>
-							<a href="#">
+							<a href="tel:1-207-440-4576">
 								<i class="fa fa-phone"></i>
 							</a>
-							<a href="#" class="">
+							<a href="http://www.facebook.com/refinedtech">
 								<i class="fa fa-facebook-square"></i>
 							</a>
 						</div>
